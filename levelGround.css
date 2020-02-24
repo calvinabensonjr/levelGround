@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+header {
+  background-color:gray;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  padding: 1%;
+}
+
+header section a {
+  padding-right: 1em;
+  font-size: 1.2em;
+  margin-left: 4%;}
+
+header button{
+  font-size: 1.3em;
+  margin-left: 35%;
+}
+
+header img{
+  width: 4%;
+  height: 44px;
+  margin-left: 30%;
+}
+
+
+header section{
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+}
+
+.one {
+  background-color:gray;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 60px 25% 60px 25%;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.two {
+  background-color: white;
+  color: black;
+  width: 100%;
+  text-align: center;
+  padding: 50px 7%;
+}
+
+.three {
+  width: 100%;
+  color: black;
+}
+
+.subOne{
+  float: left;
+  width: 50%;
+  text-align: center;
+  background-color: lightgray;
+  padding: 0 4% 4% 14%;
+}
+
+.subTwo {
+  float: left;
+  width: 50%;
+  text-align: center;
+  background-color: lightgray;
+  padding: 0 14% 4% 4%;
+
+}
+
+.imgOne {
+  height:150px;
+  width: 60%;
+  background-color: gray;
+  margin: 50px 0 0 20%;
+}
+
+.imgTwo {
+  height: 150px;
+  width: 60%;
+  background-color: gray;
+  margin: 50px 0 0 20%;
+}
+
+.four {
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 50px 7%;
+  clear:both;
+}
+
+section button {
+  font-size: 1.3em;
+}
+
+footer{
+  background-color: black;
+  clear: both;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+footer section{
+  float: left;
+  text-align: left;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+footer section section{
+  width: 30%;
+  background-color: black;
+  color: white;
+}
+footer .left{
+  display: inline-block;
+  width: 65%;
+  background-color: black;
+  color: white;
+}
+footer ul{
+  width: 100%;
+  margin: 0px;
+  background-color: black;
+}
+footer ul p{
+  color: black
+  color: white;
+}
+footer li{
+  list-style: none;
+}
+footer .left li{
+  display: inline-block;
+}
+footer .bottoms p{
+  width: 65%;
+  margin-right: 0px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+}
+footer img{
+  width: 4%;
+  height: 44px;
+  margin-left: 25%;
+}
+
+section ul li .bold {
+  font-weight: bolder;
+}
+
+.bottoms {
+  padding-left: 3%;
+}
+
+.mobileOnly {
+  display: none;
+}
+
+
+/* tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+header button {
+  margin-left: 30%;
+}
+
+header img {
+margin-left: 30%;
+}
+}
+
+
+/* for mobile */
+@media only screen and (max-width: 768px) {
+
+.mobileHide {
+  display: none;
+}
+
+.mobileOnly {
+  display: inline;
+}
+
+.one {
+  padding: 60px 15% 60px 15%;
+}
+
+.subOne {
+  width: 100%;
+  padding: 0 4% 4% 4%;
+}
+
+.subTwo {
+  width: 100%;
+  padding: 0 4% 4% 4%;
+}
+
+header img{
+  width: 10%;
+  height: 44px;
+  margin-left: 25%;
+}
+
+header button {
+  margin-left: 15%;
+}
+
+footer p {
+  width: 100%;
+}
+
+footer .bottoms p {
+  display: none;
+}
+
+footer img {
+  width: 13%;
+  float: left;
+  margin: 0;
+}
+p{
+  display: none;
+}
+.two{
+  display: none;
+}
